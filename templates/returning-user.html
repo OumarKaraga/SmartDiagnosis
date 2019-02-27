@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Returning User</title>
+	<link rel="icon" type="" href="static/img/medical-logo.jpg">
+  <link rel="stylesheet" type="text/css" href="static/css/error.css">
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed:100,200,300,400" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="static/js/error.js"></script>
+</head>
+<body>
+  <div id="error">
+          <div >
+                <center>
+                      <h2>The email <b>{{ user.email }}</b> is already in use.</h2>
+                      <p>Please <a href="/sign-in-doctor">Log-In</a> or  <a href="/sign-up-doctor">Sign-Up</a> with other email</p>
+                </center>
+          </div>
+          <div class="gears">
+            <div class="gear one">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <div class="gear two">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <div class="gear three">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+          </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>

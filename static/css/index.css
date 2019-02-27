@@ -1,0 +1,24 @@
+
+/* app name */
+#app-name {
+  color: #007bff;
+}
+
+/* query status message displayed to user */
+#status {
+	color: green;
+}
+
+
+#header-logo img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+input::placeholder {
+  color: red !important;
+  font-size: 1.2em;
+  font-style: italic;
+}
