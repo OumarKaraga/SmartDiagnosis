@@ -13,8 +13,8 @@ patientsDB = SQLAlchemy(app)
 
 #Twilio messaging api set-up
 
-account_sid = 'AC22e99e203928be6be9239ecdc4801f04'
-auth_token = 'df05e15494f82b300715a38405048697'
+account_sid = ''
+auth_token = ''
 client = Client(account_sid, auth_token)
 
 
