@@ -166,11 +166,11 @@ def newPatient():
 @app.route("/patient/<phone>", methods=['GET'])
 def patientInfo(phone):
    print(phone)
-   content = "Please go ahead and take the diagnosis: https://oumarkaraga.localhost.run"
+   content = "Please go ahead and take the diagnosis: "
    message = client.messages \
                 .create(
                      body=content,
-                     from_='+13216847096',
+                     from_='',
                      to=phone
                  )
    return render_template("patient.html")
